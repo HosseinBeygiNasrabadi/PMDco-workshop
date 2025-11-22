@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/httto
+
+idspace: HTTTO
+base_url: /obo/httto
+
+products:
+- httto.owl: https://raw.githubusercontent.com/HosseinBeygiNasrabadi/PMDco-workshop/main/httto.owl
+- httto.obo: https://raw.githubusercontent.com/HosseinBeygiNasrabadi/PMDco-workshop/main/httto.obo
+
+term_browser: ontobee
+example_terms:
+- HTTTO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/HosseinBeygiNasrabadi/PMDco-workshop/v
+
+- prefix: /tracker/
+  replacement: https://github.com/HosseinBeygiNasrabadi/PMDco-workshop/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/HTTTO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/HosseinBeygiNasrabadi/PMDco-workshop/main/
+
