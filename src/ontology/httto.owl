@@ -15,9 +15,11 @@
      xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/pmd/ao/httto.owl">
         <owl:versionIRI rdf:resource="https://w3id.org/pmd/ao/httto/releases/2025-11-22/httto.owl"/>
-        <dcterms:description>None</dcterms:description>
-        <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
-        <dcterms:title>My Application Ontology</dcterms:title>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0001-7192-7143"/>
+        <dcterms:creator>The High Temperature Tensile Test Ontology (HTTTO) is an application-level ontology developed based on the Platform MaterialDigital Core Ontology (PMDco). It serves as a practical example for hands-on workshops on &quot;How to Develop Your Application Ontologies Using PMDco and OBO+ODK Best Practices&quot;.</dcterms:creator>
+        <dcterms:creator>https://orcid.org/0000-0002-3092-0532</dcterms:creator>
+        <dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+        <dcterms:title>high temperature tensile test ontology (httto)</dcterms:title>
         <owl:versionInfo>2025-11-22</owl:versionInfo>
     </owl:Ontology>
     
@@ -4320,14 +4322,6 @@ for now.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
         <rdfs:label>time unit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/pmd/ao/HTTTO_0000000 -->
-
-    <owl:Class rdf:about="https://w3id.org/pmd/ao/HTTTO_0000000">
-        <rdfs:label xml:lang="en">root node</rdfs:label>
     </owl:Class>
     
 

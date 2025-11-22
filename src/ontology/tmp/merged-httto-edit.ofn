@@ -9,11 +9,13 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<https://w3id.org/pmd/ao/httto.owl>
-Annotation(dcterms:description "None")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
-Annotation(dcterms:title "My Application Ontology")
+Annotation(dcterms:creator <https://orcid.org/0000-0001-7192-7143>)
+Annotation(dcterms:creator "The High Temperature Tensile Test Ontology (HTTTO) is an application-level ontology developed based on the Platform MaterialDigital Core Ontology (PMDco). It serves as a practical example for hands-on workshops on \"How to Develop Your Application Ontologies Using PMDco and OBO+ODK Best Practices\".")
+Annotation(dcterms:creator "https://orcid.org/0000-0002-3092-0532")
+Annotation(dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/>)
+Annotation(dcterms:title "high temperature tensile test ontology (httto)")
 
-Declaration(Class(<https://w3id.org/pmd/ao/HTTTO_0000000>))
+Declaration(AnnotationProperty(dcterms:creator))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -33,15 +35,6 @@ AnnotationAssertion(rdfs:label dcterms:license "license")
 
 AnnotationAssertion(rdfs:label dcterms:title "title")
 
-
-
-############################
-#   Classes
-############################
-
-# Class: <https://w3id.org/pmd/ao/HTTTO_0000000> (root node)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/ao/HTTTO_0000000> "root node"@en)
 
 
 )
