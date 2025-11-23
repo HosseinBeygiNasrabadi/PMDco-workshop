@@ -14,13 +14,13 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/pmd/ao/httto.owl">
-        <owl:versionIRI rdf:resource="https://w3id.org/pmd/ao/httto/releases/2025-11-22/httto.owl"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/pmd/ao/httto/releases/2025-11-23/httto.owl"/>
         <dcterms:creator rdf:resource="https://orcid.org/0000-0001-7192-7143"/>
         <dcterms:creator>The High Temperature Tensile Test Ontology (HTTTO) is an application-level ontology developed based on the Platform MaterialDigital Core Ontology (PMDco). It serves as a practical example for hands-on workshops on &quot;How to Develop Your Application Ontologies Using PMDco and OBO+ODK Best Practices&quot;.</dcterms:creator>
         <dcterms:creator>https://orcid.org/0000-0002-3092-0532</dcterms:creator>
         <dcterms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <dcterms:title>high temperature tensile test ontology (httto)</dcterms:title>
-        <owl:versionInfo>2025-11-22</owl:versionInfo>
+        <owl:versionInfo>2025-11-23</owl:versionInfo>
     </owl:Ontology>
     
 
